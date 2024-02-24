@@ -26,14 +26,14 @@ function ProductionHouse() {
       {ProductionHouseList.map((x) => (
         <div
           className="border-gray-600 hover:border-gray-300 md:border-[4px] border-[2px] rounded-lg cursor-pointer hover:scale-110 transition-all ease-linear duration-300
-          shadow-xl  shadow-gray-700 hover:shadow-gray-500">
+          shadow-xl  shadow-gray-700 hover:shadow-gray-500 hover:border-[6px]">
          
           <video
             src={x.video}
             autoPlay
             loop
             playsInline
-            className="absolute rounded-lg opacity-0 hover:opacity-70 "
+            className="absolute rounded-md opacity-0 hover:opacity-70 "
           />
            <img src={x.image} className="w-full" />
           
